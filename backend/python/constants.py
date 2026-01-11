@@ -1,0 +1,8 @@
+import os
+
+ADMIN_USERNAME = os.getenv('ADMIN_USERNAME', 'admin')
+ADMIN_PASSWORD = os.getenv('ADMIN_PASSWORD', 'P@ssword9')
+JWT_TOKEN_SIGNING_SHARED_SECRET = os.getenv('JWT_TOKEN_SIGNING_SHARED_SECRET', 'TokenSigningSharedSecret@123')
+JWT_ISSUER_NAME = os.getenv('JWT_ISSUER_NAME', 'my-auth')
+JWT_AUDIENCE_NAME = os.getenv('JWT_AUDIENCE_NAME', 'my-app')
+JWT_EXPIRES_IN_SECONDS = int(os.getenv('JWT_EXPIRES_IN_SECONDS', 300))
