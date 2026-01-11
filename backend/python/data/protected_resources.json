@@ -1,0 +1,17 @@
+{
+    "f30af47d314b45139e2b2f4a354dbbd5": {
+        "name": "resource1",
+        "description": "resource 1",
+        "resourceId": "f30af47d314b45139e2b2f4a354dbbd5"
+    },
+    "a9f4ed92b7d948d5be125b5f1af1d9f9": {
+        "name": "resource2",
+        "description": "resource 2",
+        "resourceId": "a9f4ed92b7d948d5be125b5f1af1d9f9"
+    },
+    "2925a2722da448d5bd050f0c00b93e0d": {
+        "name": "resource3",
+        "description": "resource 3",
+        "resourceId": "2925a2722da448d5bd050f0c00b93e0d"
+    }
+}
